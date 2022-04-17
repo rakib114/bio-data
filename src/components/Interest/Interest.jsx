@@ -18,7 +18,7 @@ const Interest = (props) => {
       </ul>
       <br />
       <p>
-        <dfn>Referenced By:</dfn> Mahie Asif
+        <dfn>Referenced By:</dfn> {props.referenced}
       </p>
     </div>
   );

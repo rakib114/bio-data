@@ -15,7 +15,10 @@ const Biodata = () => {
           email="imArk@protonmail.com"
         />
         <Skill skills={["HTML 5", "CSS 3", "Javascript", "React"]} />
-        <Interest interests={["Crypto", "WEB 3.0", "NFT", "AI"]} />
+        <Interest
+          interests={["Crypto", "WEB 3.0", "NFT", "AI"]}
+          referenced="Mahie Asif"
+        />
       </div>
       <div className="rhot_data" style={{ marginTop: "50px" }}>
         <h1 style={{ textAlign: "center" }}>Bio Data of Mohit Roy</h1>
@@ -28,7 +31,10 @@ const Biodata = () => {
         <Skill
           skills={["HTML 5", "CSS 3", "Javascript", "Angular", "Node JS"]}
         />
-        <Interest interests={["WEB 3.0", "NFT", "Tradding", "C++"]} />
+        <Interest
+          interests={["WEB 3.0", "NFT", "Tradding", "C++"]}
+          referenced="Saidur Rahman Setu"
+        />
       </div>
     </div>
   );
