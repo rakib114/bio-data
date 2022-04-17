@@ -7,7 +7,7 @@ const Interest = (props) => {
         width: "30vw",
         marginLeft: "9%",
         borderBottom: "2px solid gray",
-        marginBottom: "5%",
+        paddingBottom: "5px",
       }}
     >
       <h2>Interest</h2>

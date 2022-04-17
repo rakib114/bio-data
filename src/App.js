@@ -4,7 +4,7 @@ import Biodata from "./components/Biodata/Biodata";
 
 function App() {
   return (
-    <div style={{ backgroundColor: "cyan", height: "100%" }}>
+    <div style={{ backgroundColor: "cyan" }}>
       <Biodata />
     </div>
   );
